@@ -1,0 +1,135 @@
+*{
+    font-family: "Public Sans"; 
+}
+#header{
+    background-color:  hsl(0, 0%, 98%)    ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+
+}
+.logo{
+    padding: 10px 10px;
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
+.listheader{
+    list-style: none;
+    display: flex;
+}
+.listheader li{
+    margin: 10px;
+    padding: 10px;  
+    font-size: 15px;
+}
+.listheader li a{
+    text-decoration: none;
+    color:   hsl(233, 8%, 62%)  ;
+}
+
+.invitebtn{
+    font-size: 18px;
+    padding: 9px 30px;
+    margin: 20px;
+    border: none;
+    outline:none;
+    border-radius: 25px;
+    background-color: hsl(136, 65%, 51%);
+    color: white;
+}
+#hero{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#hero .left{
+    position: relative;
+}
+#hero .left h1{
+    font-size : 4em;
+    margin: 20% 20px 0px 10%;
+    padding: 20px 5px 20px 5px;
+    text-align: left;
+   font-weight: 300;
+}
+#hero .left p{
+    font-size: 1.2em;
+    text-align: left;
+    margin: 0px 20px 10% 10%;
+    padding: 0px 5px 20px 5px;
+    line-height: 1.5;
+}
+#hero .left .btn{
+    font-size: 18px;
+    padding: 9px 30px;
+    margin: 20px;
+    border: none;
+    outline:none;
+    border-radius: 25px;
+    background-color: hsl(136, 65%, 51%);
+    color: white;
+    margin: 0px 20px 10% 10%;
+    position: absolute;
+    bottom: 4%;
+}
+.imagehero svg{
+    width: 50vw;
+    height: 100%;  
+}
+#features{
+    background-color:  hsl(220, 16%, 96%) ;
+}
+#features .container{
+    display: flex;
+    flex-direction: column;
+}
+#features .container .offering{
+    margin: 3% auto 5% 2.5%;   
+
+}
+#features .container .offering h4{
+    font-family: "Public Sans";
+    color: hsl(233, 8%, 62%);
+}
+#features .container .rows{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5% 3% 5% ;
+}
+#features .container .rows h4{
+    font-size: 1.3rem;
+    color:  hsl(233, 8%, 62%);
+    font-family: "Public Sans";
+}
+#articles .head .container{
+    display: flex;
+}
+#footer{
+    background-color: hsl(233, 26%, 24%) ;
+}
+#footer .foot{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .foot .left{
+    margin: 30px 10px 10px 20px;
+}
+#footer .socials .icons{
+    display: flex;
+    justify-content: center;
+}
+#footer .socials .icons li{
+    list-style: none;
+    margin: 5px;
+}
+#footer  .bio{
+    display: flex;
+}
+#footer .bio ul li{
+    list-style: none;
+}
+#footer .bio ul li a{
+    color:  hsl(220, 16%, 96%);
+    text-decoration: none;
+}

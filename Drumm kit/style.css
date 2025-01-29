@@ -1,0 +1,17 @@
+body{
+  text-align: center;
+    background-image: url("./images/pexels-anthonyshkraba-production-8041089.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+h1 {
+    font-size: 5rem;
+    color: #dbedf3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #da0463;
+    margin-top: 45%;
+  }
+  
+  /* button{
+     visibility: hidden;
+  } */
